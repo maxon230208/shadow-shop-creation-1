@@ -78,6 +78,9 @@ const Index = () => {
                 Выбрать аккаунт
               </Button>
               <Button
+                onClick={() =>
+                  window.open("https://vk.com/stalin_i_lenin_top", "_blank")
+                }
                 variant="outline"
                 size="lg"
                 className="border-neon-green text-neon-green hover:bg-neon-green hover:text-black transition-all duration-300 hover:shadow-[0_0_20px_rgba(0,255,136,0.5)]"
@@ -172,6 +175,9 @@ const Index = () => {
           </p>
           <div className="flex justify-center space-x-6">
             <Button
+              onClick={() =>
+                window.open("https://vk.com/stalin_i_lenin_top", "_blank")
+              }
               variant="ghost"
               size="sm"
               className="text-gray-400 hover:text-neon-green transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(0,255,136,0.8)]"

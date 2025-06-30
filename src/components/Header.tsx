@@ -36,7 +36,12 @@ export default function Header() {
             </a>
           </nav>
 
-          <Button className="bg-gradient-to-r from-neon-green to-neon-blue hover:from-neon-blue hover:to-neon-pink text-black font-semibold transition-all duration-300 shadow-[0_0_20px_rgba(0,255,136,0.5)] hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] border-0">
+          <Button
+            onClick={() =>
+              window.open("https://vk.com/stalin_i_lenin_top", "_blank")
+            }
+            className="bg-gradient-to-r from-neon-green to-neon-blue hover:from-neon-blue hover:to-neon-pink text-black font-semibold transition-all duration-300 shadow-[0_0_20px_rgba(0,255,136,0.5)] hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] border-0"
+          >
             <Icon name="MessageCircle" size={16} className="mr-2" />
             Написать в ВК
           </Button>

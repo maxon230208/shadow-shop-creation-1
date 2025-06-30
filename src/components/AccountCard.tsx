@@ -19,7 +19,7 @@ export default function AccountCard({
   isPopular,
 }: AccountCardProps) {
   const handleBuyClick = () => {
-    window.open("https://vk.me/shadowshop_cs2", "_blank");
+    window.open("https://vk.com/stalin_i_lenin_top", "_blank");
   };
 
   return (
