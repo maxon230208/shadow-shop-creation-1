@@ -17,20 +17,34 @@ export default function Header() {
 
           <nav className="hidden md:flex items-center space-x-6">
             <a
-              href="#accounts"
+              href="/"
               className="text-gray-300 hover:text-neon-green transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(0,255,136,0.8)]"
             >
               Аккаунты
             </a>
             <a
-              href="#about"
+              href="/about"
               className="text-gray-300 hover:text-neon-blue transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(0,212,255,0.8)]"
             >
               О нас
             </a>
             <a
-              href="#contact"
+              href="/guarantees"
+              className="text-gray-300 hover:text-neon-purple transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(139,92,246,0.8)]"
+            >
+              Гарантии
+            </a>
+            <a
+              href="/reviews"
               className="text-gray-300 hover:text-neon-pink transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(255,0,128,0.8)]"
+            >
+              Отзывы
+            </a>
+            <a
+              onClick={() =>
+                window.open("https://vk.com/stalin_i_lenin_top", "_blank")
+              }
+              className="text-gray-300 hover:text-yellow-400 transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(255,255,0,0.8)] cursor-pointer"
             >
               Контакты
             </a>

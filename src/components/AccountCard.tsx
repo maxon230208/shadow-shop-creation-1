@@ -5,7 +5,6 @@ import Icon from "@/components/ui/icon";
 
 interface AccountCardProps {
   rank: string;
-  level: number;
   price: number;
   features: string[];
   isPopular?: boolean;
@@ -13,7 +12,6 @@ interface AccountCardProps {
 
 export default function AccountCard({
   rank,
-  level,
   price,
   features,
   isPopular,
@@ -48,7 +46,6 @@ export default function AccountCard({
             </div>
             <div>
               <h3 className="text-xl font-bold text-white">{rank}</h3>
-              <p className="text-gray-400 text-sm">Уровень {level}</p>
             </div>
           </div>
 

@@ -6,7 +6,6 @@ import Icon from "@/components/ui/icon";
 const accounts = [
   {
     rank: "Рандом КС Прайм",
-    level: 15,
     price: 550,
     features: [
       "Prime статус",
@@ -17,19 +16,17 @@ const accounts = [
   },
   {
     rank: "Рандом КС Прайм с инвентарём",
-    level: 25,
     price: 1000,
     features: [
       "Prime статус",
       "Скины в инвентаре",
       "100+ часов игры",
-      "Готов к FaceIt",
+      "Отличное качество",
     ],
     isPopular: true,
   },
   {
     rank: "Рандом КС Прайм и отлёга",
-    level: 32,
     price: 1500,
     features: [
       "Prime статус",
@@ -40,13 +37,12 @@ const accounts = [
   },
   {
     rank: "Рандом КС Прайм и от 2к инвентарь",
-    level: 40,
     price: 3000,
     features: [
       "Prime статус",
       "Инвентарь от 2000₽",
       "300+ часов игры",
-      "Готов к ESEA",
+      "Премиум качество",
     ],
   },
 ];
@@ -103,7 +99,6 @@ const Index = () => {
                 <AccountCard
                   key={index}
                   rank={account.rank}
-                  level={account.level}
                   price={account.price}
                   features={account.features}
                   isPopular={account.isPopular}
@@ -185,17 +180,9 @@ const Index = () => {
               <Icon name="MessageCircle" size={16} className="mr-2" />
               ВКонтакте
             </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              className="text-gray-400 hover:text-neon-blue transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(0,212,255,0.8)]"
-            >
-              <Icon name="Send" size={16} className="mr-2" />
-              Telegram
-            </Button>
           </div>
           <p className="text-xs text-gray-500 mt-4">
-            © 2024 ShadowShop. Все права защищены.
+            © 2025 ShadowShop. Все права защищены.
           </p>
         </div>
       </footer>
