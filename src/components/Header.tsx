@@ -23,20 +23,26 @@ export default function Header() {
               Аккаунты
             </a>
             <a
-              href="/about"
-              className="text-gray-300 hover:text-neon-blue transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(0,212,255,0.8)]"
+              onClick={() =>
+                window.open("https://vk.com/shadowshopcs2", "_blank")
+              }
+              className="text-gray-300 hover:text-neon-blue transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(0,212,255,0.8)] cursor-pointer"
             >
               О нас
             </a>
             <a
-              href="/guarantees"
-              className="text-gray-300 hover:text-neon-purple transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(139,92,246,0.8)]"
+              onClick={() =>
+                window.open("https://vk.com/topic-230417842_53981653", "_blank")
+              }
+              className="text-gray-300 hover:text-neon-purple transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(139,92,246,0.8)] cursor-pointer"
             >
               Гарантии
             </a>
             <a
-              href="/reviews"
-              className="text-gray-300 hover:text-neon-pink transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(255,0,128,0.8)]"
+              onClick={() =>
+                window.open("https://vk.com/topic-230417842_53981656", "_blank")
+              }
+              className="text-gray-300 hover:text-neon-pink transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(255,0,128,0.8)] cursor-pointer"
             >
               Отзывы
             </a>
