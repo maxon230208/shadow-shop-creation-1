@@ -5,9 +5,9 @@ import Icon from "@/components/ui/icon";
 
 const accounts = [
   {
-    rank: "Silver Elite",
+    rank: "Рандом КС Прайм",
     level: 15,
-    price: 1500,
+    price: 550,
     features: [
       "Prime статус",
       "Чистая история",
@@ -16,59 +16,37 @@ const accounts = [
     ],
   },
   {
-    rank: "Gold Nova Master",
+    rank: "Рандом КС Прайм с инвентарём",
     level: 25,
-    price: 2800,
+    price: 1000,
     features: [
       "Prime статус",
-      "Медали операций",
+      "Скины в инвентаре",
       "100+ часов игры",
       "Готов к FaceIt",
     ],
     isPopular: true,
   },
   {
-    rank: "Master Guardian",
+    rank: "Рандом КС Прайм и отлёга",
     level: 32,
-    price: 4200,
+    price: 1500,
     features: [
       "Prime статус",
-      "Редкие скины",
+      "Отлёжка аккаунта",
       "200+ часов игры",
       "Trust Factor: Зелёный",
     ],
   },
   {
-    rank: "Legendary Eagle",
+    rank: "Рандом КС Прайм и от 2к инвентарь",
     level: 40,
-    price: 6500,
+    price: 3000,
     features: [
       "Prime статус",
-      "Дорогие скины",
+      "Инвентарь от 2000₽",
       "300+ часов игры",
       "Готов к ESEA",
-    ],
-  },
-  {
-    rank: "Supreme Master",
-    level: 45,
-    price: 9000,
-    features: [
-      "Prime статус",
-      "Коллекция скинов",
-      "400+ часов игры",
-      "Высокий TF",
-    ],
-  },
-  {
-    rank: "Global Elite",
-    level: 50,
-    price: 15000,
-    features: [
-      "Prime статус",
-      "Инвентарь $500+",
-      "500+ часов игры",
-      "Идеальная репутация",
     ],
   },
 ];
